@@ -21,23 +21,6 @@ namespace Leetcode.Easy
             return strs[0];
         }
 
-        public static string LongestCommonPrefixBruteforce1(string[] strs)
-        {
-            foreach (var str in strs[0])
-            {
-
-            }
-            for (int i = 0; i < strs[0].Length; i++)
-            {
-                for (int j = 0; j < strs.Length; j++)
-                {
-                    if (strs[0][i] != strs[j][i])
-                    {
-                        return strs[0].Substring(0, i - 1);
-                    }
-                }
-            }
-            return strs[0];
-        }
+        
     }
 }

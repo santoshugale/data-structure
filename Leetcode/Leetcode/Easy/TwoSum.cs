@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 namespace Leetcode.Easy
 {
+    // Given an array of integers nums and an integer target,
+    // return indices of the two numbers such that they add up to target.
     public static class TwoSum
     {
         public static int[] OptimizedSolution(int[] array, int sum)
