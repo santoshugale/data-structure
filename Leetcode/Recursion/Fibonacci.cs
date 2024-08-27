@@ -1,15 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Leetcode.Recursion
 {
     public class Fibonacci
     {
-        public static int GetNthFibonacciRecursive(int number)
-        {
-            return Recursive(number);
-        }
+        public Dictionary<int, int> fibData;
 
-        private static int Recursive(int number)
+        public Fibonacci()
+        {
+            fibData = new Dictionary<int, int>();
+        }
+        public int GetNthFibonacciRecursive(int number)
         {
             // Condition which breaks the recursion
             if (number <= 1)
@@ -22,7 +24,29 @@ namespace Leetcode.Recursion
             }
         }
 
-        public static void PrintFibonnaciSequential(int len)
+        public int GetNthFibRecursiveWithMemoization(int number)
+        {
+            // Condition which breaks the recursion
+            if (number <= 1)
+            {
+                return number;
+            }
+            else
+            {
+                if (fibData.TryGetValue(number, out int value))
+                {
+                    return value;
+                }
+                else
+                {
+                    var result = GetNthFibonacciRecursive(number - 1) + GetNthFibonacciRecursive(number - 2);
+                    fibData.Add(number, result);
+                    return result;
+                }
+            }
+        }
+
+        public void PrintFibonnaciSequential(int len)
         {
             if (len < 1)
             {
