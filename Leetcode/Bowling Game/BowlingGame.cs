@@ -36,7 +36,7 @@ namespace Leetcode.BowlingGameCode
             var totalScore = 0;
             foreach (var frame in frames)
             {
-                totalScore += frame.Score(this.throws);
+                totalScore += frame.Score(throws);
             }
             return totalScore;
         }
