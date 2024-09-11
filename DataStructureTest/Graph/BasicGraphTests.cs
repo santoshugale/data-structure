@@ -1,6 +1,6 @@
-using Xunit;
+using DataStructure.Graph;
 
-namespace Leetcode.Graph.Tests
+namespace DataStructureTest.Graph
 {
     public class BasicGraphTests
     {
@@ -54,7 +54,7 @@ namespace Leetcode.Graph.Tests
             graph.AddEdge(0, 2);
             graph.AddEdge(1, 3);
             graph.AddEdge(2, 4);
-            
+
             graph.GenerateAdjacencyMatrix();
 
             // Assert

@@ -1,6 +1,6 @@
-using Xunit;
+using DataStructure.Graph;
 
-namespace Leetcode.Graph.Tests
+namespace DataStructureGraph.Tests
 {
     public class GenericGraphTest
     {

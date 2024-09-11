@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Leetcode
+namespace DataStructure.Tree
 {
     /// <summary>
     /// In BST left element is smaller and right element is greater that root

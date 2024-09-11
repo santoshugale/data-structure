@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Leetcode.Graph
+namespace DataStructure.Graph
 {
     // un-weighted directional graph whose nodes value is integer
     public class BasicGraph

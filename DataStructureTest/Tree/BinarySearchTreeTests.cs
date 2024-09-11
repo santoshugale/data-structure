@@ -1,7 +1,6 @@
-using Leetcode;
-using Xunit;
+using DataStructure.Tree;
 
-namespace LeetcodeUnitTest.Tree
+namespace DataStructureTest.Tree
 {
     public class BinarySearchTreeTests
     {

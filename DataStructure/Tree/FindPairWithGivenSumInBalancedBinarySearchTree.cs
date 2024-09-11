@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using static Leetcode.BinarySearchTree;
+using static DataStructure.Tree.BinarySearchTree;
 
-namespace Leetcode.Tree
+namespace DataStructure.Tree
 {
     public class FindPairWithGivenSumInBalancedBinarySearchTree
     {
