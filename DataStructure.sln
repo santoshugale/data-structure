@@ -5,11 +5,11 @@ VisualStudioVersion = 17.7.34302.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leetcode", "Leetcode\Leetcode.csproj", "{09C7EC9C-70FA-4658-8A0B-AFC077258FE7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetcodeUnitTest", "LeetcodeUnitTest\LeetcodeUnitTest.csproj", "{E0B43C46-E6E9-4D30-ADE7-B97904DADB58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetcodeTest", "LeetcodeUnitTest\LeetcodeTest.csproj", "{E0B43C46-E6E9-4D30-ADE7-B97904DADB58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure", "DataStructure\DataStructure.csproj", "{46CAEB69-E4AC-4579-9D57-6FC1E4E6B2E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructure", "DataStructure\DataStructure.csproj", "{46CAEB69-E4AC-4579-9D57-6FC1E4E6B2E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructureTest", "DataStructureTest\DataStructureTest.csproj", "{220D8FC6-A335-4B76-829D-BF50CF90175F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructureTest", "DataStructureTest\DataStructureTest.csproj", "{220D8FC6-A335-4B76-829D-BF50CF90175F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
